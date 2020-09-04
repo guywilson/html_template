@@ -72,7 +72,7 @@ $(DEP)/%.d: ;
 
 install: $(LIBTARGET)
 	cp $(LIB)/$(LIBTARGET) /usr/lib
-	cp $(SRC)/html_template.h /usr/include
+	cp $(SOURCE)/html_template.h /usr/include
 
 clean:
 	rm -r $(BUILD)
